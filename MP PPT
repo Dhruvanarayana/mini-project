@@ -1,0 +1,70 @@
+Objectives
+
+1. To segment road scenes using deep learning.
+
+
+2. To identify vehicles, pedestrians, lanes, and traffic signs.
+
+
+3. To use both local details and overall context for better accuracy.
+
+
+4. To work well in different conditions (day/night, weather, traffic).
+
+
+5. To reduce errors in road scene understanding.
+
+
+6. To support safer and smarter autonomous driving.
+
+Abstract
+
+1.Road scene understanding is important for autonomous driving and traffic safety.
+
+2.Semantic segmentation helps classify road elements like cars, pedestrians, lanes, and signs.
+
+3.Traditional methods focus only on pixel-wise labeling and miss global context.
+
+4.Vision-driven deep learning uses CNNs/Transformers to capture both local details and overall scene context.
+
+5.This improves accuracy and robustness in complex road conditions (day, night, weather, traffic).
+
+6.The approach enables safer and smarter navigation in real-world environments.
+
+Problem Understanding
+
+1. Road scenes are complex with many objects like vehicles, lanes, pedestrians, and traffic signs.
+
+
+2. Traditional methods only classify pixels but ignore overall scene context.
+
+
+3. Similar-looking objects (e.g., road vs. sidewalk) often cause misclassification.
+
+
+4. Changing conditions like lighting, weather, and traffic make segmentation harder.
+
+
+5. Lack of contextual understanding reduces accuracy and reliability in real-world use.
+
+
+6. Autonomous driving needs a robust and context-aware system for safe navigation.
+
+Proposed System
+
+1. Use deep learning models (CNN + Transformer) to process road images.
+
+
+2. Extract local features (lanes, vehicles, pedestrians, signs) from the scene.
+
+
+3. Capture global context to understand the full road environment.
+
+
+4. Combine local and global features for accurate semantic segmentation.
+
+
+5. Train and test the system on road scene datasets for real-world conditions.
+
+
+6. Provide reliable, real-time road scene understanding to support autonomous driving.
