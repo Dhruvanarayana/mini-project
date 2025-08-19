@@ -68,3 +68,17 @@ Proposed System
 
 
 6. Provide reliable, real-time road scene understanding to support autonomous driving.
+Changing conditions – Roads look different in day/night, rain, fog, or shadows, which makes recognition difficult.
+
+
+2. Objects blocking each other – Cars, people, and bikes sometimes hide parts of each other, causing confusion.
+
+
+3. Unbalanced objects – Common things like cars are easy to detect, but rare ones like animals or traffic signs are often missed.
+
+
+4. Need for speed – Systems must work very fast for self-driving cars, but detailed segmentation is slow.
+
+
+5. Lack of context – Models may detect objects but not understand their meaning (e.g., person walking vs. standing).
+
