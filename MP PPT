@@ -81,4 +81,20 @@ Changing conditions – Roads look different in day/night, rain, fog, or shadows
 
 
 5. Lack of context – Models may detect objects but not understand their meaning (e.g., person walking vs. standing).
+PI
+1. Faded or Missing Lane Markings – On many roads, paint is worn out. Segmentation can detect road boundaries even without clear markings.
 
+
+2. Obstacles on Roads – Potholes, debris, or parked vehicles confuse drivers. Segmentation helps in identifying drivable vs. non-drivable areas.
+
+
+3. Low Visibility Conditions – At night, in fog, or rain, drivers struggle. Computer vision with segmentation can enhance detection where human eyes fail.
+
+
+4. Unstructured Roads – In rural or underdeveloped areas, roads have no standard lanes. Segmentation learns road patterns beyond just lane markings.
+
+
+5. Traffic Safety for Autonomous Driving – Autonomous cars require precise navigation. Road segmentation provides clear road maps for safe movement.
+
+
+6. High Manual Effort in Monitoring Roads – Human-based road surveys are time-consuming. Segmentation automates road understanding quickly.
